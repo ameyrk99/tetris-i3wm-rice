@@ -1,0 +1,24 @@
+wallpaper: "/home/mark/.i3/wal/headphones_minimalism_pink_120664_3840x2400.jpg"
+
+special:
+    background: "#8b4b49"
+    foreground: "#d0e3e1"
+    cursor: "#d0e3e1"
+
+colors:
+    color0: "#8b4b49"
+    color1: "#F5B3B2"
+    color2: "#A7C6BB"
+    color3: "#D0C3BD"
+    color4: "#FCC1BE"
+    color5: "#FBBFC0"
+    color6: "#9CC9C4"
+    color7: "#d0e3e1"
+    color8: "#919e9d"
+    color9: "#F5B3B2"
+    color10: "#A7C6BB"
+    color11: "#D0C3BD"
+    color12: "#FCC1BE"
+    color13: "#FBBFC0"
+    color14: "#9CC9C4"
+    color15: "#d0e3e1"

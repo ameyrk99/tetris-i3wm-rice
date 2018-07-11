@@ -1,0 +1,42 @@
+[options]
+font = IBM 3270 13.5
+
+[colors]
+
+# special
+foreground      = #d0e3e1
+foreground_bold = #d0e3e1
+cursor          = #d0e3e1
+background      = rgba(139,75,73,0.96)
+
+# black
+color0  = #8b4b49
+color8  = #919e9d
+
+# red
+color1  = #f5b3b2
+color9  = #f5b3b2
+
+# green
+color2  = #a7c6bb
+color10 = #a7c6bb
+
+# yellow
+color3  = #d0c3bd
+color11 = #d0c3bd
+
+# blue
+color4  = #fcc1be
+color12 = #fcc1be
+
+# magenta
+color5  = #fbbfc0
+color13 = #fbbfc0
+
+# cyan
+color6  = #9cc9c4
+color14 = #9cc9c4
+
+# white
+color7  = #d0e3e1
+color15 = #d0e3e1

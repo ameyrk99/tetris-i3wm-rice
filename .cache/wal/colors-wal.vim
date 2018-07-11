@@ -1,0 +1,23 @@
+" Special
+let wallpaper  = "/home/mark/.i3/wal/headphones_minimalism_pink_120664_3840x2400.jpg"
+let background = "#8b4b49"
+let foreground = "#d0e3e1"
+let cursor     = "#d0e3e1"
+
+" Colors
+let color0  = "#8b4b49"
+let color1  = "#F5B3B2"
+let color2  = "#A7C6BB"
+let color3  = "#D0C3BD"
+let color4  = "#FCC1BE"
+let color5  = "#FBBFC0"
+let color6  = "#9CC9C4"
+let color7  = "#d0e3e1"
+let color8  = "#919e9d"
+let color9  = "#F5B3B2"
+let color10 = "#A7C6BB"
+let color11 = "#D0C3BD"
+let color12 = "#FCC1BE"
+let color13 = "#FBBFC0"
+let color14 = "#9CC9C4"
+let color15 = "#d0e3e1"
