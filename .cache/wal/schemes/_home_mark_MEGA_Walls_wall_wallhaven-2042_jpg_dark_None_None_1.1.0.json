@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mark/MEGA/Walls/wall/wallhaven-2042.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#060A1D",
+        "foreground": "#d3dcdb",
+        "cursor": "#d3dcdb"
+    },
+    "colors": {
+        "color0": "#060A1D",
+        "color1": "#718E96",
+        "color2": "#79969D",
+        "color3": "#839DA1",
+        "color4": "#93AAAC",
+        "color5": "#A7B9B8",
+        "color6": "#B2C1BE",
+        "color7": "#d3dcdb",
+        "color8": "#939a99",
+        "color9": "#718E96",
+        "color10": "#79969D",
+        "color11": "#839DA1",
+        "color12": "#93AAAC",
+        "color13": "#A7B9B8",
+        "color14": "#B2C1BE",
+        "color15": "#d3dcdb"
+    }
+}

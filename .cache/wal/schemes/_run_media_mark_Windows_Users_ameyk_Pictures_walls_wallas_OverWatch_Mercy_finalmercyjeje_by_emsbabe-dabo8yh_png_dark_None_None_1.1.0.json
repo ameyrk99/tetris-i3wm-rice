@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/run/media/mark/Windows/Users/ameyk/Pictures/walls/wallas/OverWatch/Mercy/finalmercyjeje_by_emsbabe-dabo8yh.png",
+    "alpha": "100",
+    "special": {
+        "background": "#210e13",
+        "foreground": "#ede0d1",
+        "cursor": "#ede0d1"
+    },
+    "colors": {
+        "color0": "#210e13",
+        "color1": "#C58B72",
+        "color2": "#725C85",
+        "color3": "#926E88",
+        "color4": "#C47E81",
+        "color5": "#B0929F",
+        "color6": "#D1A9A1",
+        "color7": "#ede0d1",
+        "color8": "#a59c92",
+        "color9": "#C58B72",
+        "color10": "#725C85",
+        "color11": "#926E88",
+        "color12": "#C47E81",
+        "color13": "#B0929F",
+        "color14": "#D1A9A1",
+        "color15": "#ede0d1"
+    }
+}

@@ -4,39 +4,42 @@ font = IBM 3270 13.5
 [colors]
 
 # special
-foreground      = #d0e3e1
-foreground_bold = #d0e3e1
-cursor          = #d0e3e1
-background      = rgba(139,75,73,0.96)
+foreground      = #85c2e0
+foreground_bold = #85c2e0
+cursor          = #85c2e0
+background      = rgba(24,25,33,0.945)
 
 # black
-color0  = #8b4b49
-color8  = #919e9d
+color0  = #181921
+color8  = #5d879c
 
 # red
-color1  = #f5b3b2
-color9  = #f5b3b2
+#color1  = #a2a83f
+#color9  = #a2a83f
+color1  = #e5514d
+color9  = #e5514d
 
 # green
-color2  = #a7c6bb
-color10 = #a7c6bb
+color2  = #dae523
+color10 = #dae523
 
 # yellow
-color3  = #d0c3bd
-color11 = #d0c3bd
+color3  = #e0ed21
+color11 = #e0ed21
 
 # blue
-color4  = #fcc1be
-color12 = #fcc1be
+color4  = #e4ec71
+color12 = #e4ec71
 
 # magenta
-color5  = #fbbfc0
-color13 = #fbbfc0
+color5  = #29749c
+color13 = #29749c
 
 # cyan
-color6  = #9cc9c4
-color14 = #9cc9c4
+color6  = #59f68d
+color14 = #59f68d
 
 # white
-color7  = #d0e3e1
-color15 = #d0e3e1
+color7  = #85c2e0
+color15 = #85c2e0
+

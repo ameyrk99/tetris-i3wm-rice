@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/run/media/mark/Windows/Users/ameyk/Pictures/walls/wallas/Superheros/Spider-Gwen/rszspider-gwen1coverrobbirodriguezjpg-d28e7a_1280w.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#301a22",
+        "foreground": "#ede3c3",
+        "cursor": "#ede3c3"
+    },
+    "colors": {
+        "color0": "#301a22",
+        "color1": "#B0628F",
+        "color2": "#E06F9D",
+        "color3": "#77AFB1",
+        "color4": "#A7ADAD",
+        "color5": "#EEA79E",
+        "color6": "#EF8DB2",
+        "color7": "#ede3c3",
+        "color8": "#a59e88",
+        "color9": "#B0628F",
+        "color10": "#E06F9D",
+        "color11": "#77AFB1",
+        "color12": "#A7ADAD",
+        "color13": "#EEA79E",
+        "color14": "#EF8DB2",
+        "color15": "#ede3c3"
+    }
+}

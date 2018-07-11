@@ -1,17 +1,10 @@
 [colors]
-background = #8b4b49
-;background-alt = #cc191919  ;semi-transparent one 
-foreground = #F1F1F0
-;foreground-alt = #E0563A
-red = #FF5B56
-blue = #56C7FF
-blue-dark = #1C96D3
-yellow = #F3F99D
-green = #59F78E
-white = #F1F1F0
-trans = #00000000
-fore = #8b4b49
-
+foreground      = #85c2e0
+background      = #181921
+red = #e5514d
+yellow  = #e4ec71
+green  = #59f68d
+cyan  = #85c2e0
 
 [bar/bar]
 width = 100%
@@ -19,8 +12,8 @@ height = 26
 radius = 0
 fixed-center = true
 
-background = ${colors.trans}
-foreground = ${colors.trans}
+background = ${colors.background}
+foreground = ${colors.cyan}
 
 line-size = 0
 line-color =
@@ -28,7 +21,7 @@ line-color =
 border-size = 
 border-bottom-size = 0
 ;border-bottom-size = 5
-border-color = ${colors.trans}
+border-color = ${colors.background}
 
 padding-left = 0
 padding-right = 0
@@ -59,22 +52,22 @@ index-sort = true
 wrapping-scroll = false
 
 label-mode-padding = 2
-label-mode-foreground = ${colors.white}
+label-mode-foreground = ${colors.cyan}
 ;label-mode-background = ${colors.background}
 
 label-focused = "%name%"
-label-focused-background = ${colors.background}
-label-focused-foreground = #f5b3b2
+label-focused-background = ${colors.cyan}
+label-focused-foreground = ${colors.background}
 label-focused-padding = 1.2
 
 label-unfocused = "%name%"
-;label-unfocused-background = ${colors.fore}
-label-unfocused-foreground = ${colors.background}
+label-unfocused-background = ${colors.background}
+label-unfocused-foreground = ${colors.cyan}
 label-unfocused-padding = 1.2
 
 label-visible-focused = "%name%"
-;label-visible-background = ${colors.trans}
-label-visible-foreground = ${colors.background}
+label-visible-background = ${colors.background}
+label-visible-foreground = ${colors.cyan}
 label-visible-padding = 1.2
 
 label-urgent-focused = "%name%"
@@ -87,7 +80,7 @@ type = custom/script
 label= %output%
 exec=echo "$(iw dev wlp2s0 link | grep SSID | cut -d " " -f 2-)"
 ;format-background = ${colors.background}
-format-foreground = ${colors.background}
+format-foreground = ${colors.red}
 interval=5
 format-padding = 0.7
 
@@ -97,8 +90,8 @@ type = custom/script
 label = %output%
 exec=~/.i3/scripts/bandwidth
 interval=1
-format-foreground = ${colors.background}
-;format-foreground = ${colors.trans}
+format-foreground = ${colors.red}
+;format-foreground = ${colors.background}
 format-padding = 1
 
 [module/volume]
@@ -106,7 +99,7 @@ type = custom/script
 label =  %output%
 exec=~/.i3/scripts/volume
 format-padding = 1.5
-format-foreground = ${colors.background}
+format-foreground = ${colors.red}
 
 [module/weather]
 ;Display Weather. Change 'arlington' to where you live (unless you live in arlington too...) for it to work
@@ -114,7 +107,7 @@ type=custom/script
 label=Nashik %output%
 exec= ~/.i3/scripts/weather.sh nashik
 interval=1800
-format-foreground = ${colors.background}
+format-foreground = ${colors.green}
 format-padding = 1
 
 [module/battery]
@@ -123,7 +116,7 @@ type = custom/script
 label =  %output%
 exec=~/.i3/scripts/battery
 interval=12
-format-foreground = ${colors.background}
+format-foreground = ${colors.red}
 format-padding = 1
 
 [module/date]
@@ -137,7 +130,7 @@ time = %H:%M
 time-alt = %H:%M:%S
 
 format-prefix = 
-format-foreground = ${colors.background}
+format-foreground = ${colors.yellow}
 format-padding = 1
 
 label = %date% %time%

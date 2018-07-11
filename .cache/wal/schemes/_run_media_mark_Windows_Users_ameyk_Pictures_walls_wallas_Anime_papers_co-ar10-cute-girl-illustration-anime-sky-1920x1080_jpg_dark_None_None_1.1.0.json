@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/run/media/mark/Windows/Users/ameyk/Pictures/walls/wallas/Anime/papers.co-ar10-cute-girl-illustration-anime-sky-1920x1080.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#222433",
+        "foreground": "#cbe4e1",
+        "cursor": "#cbe4e1"
+    },
+    "colors": {
+        "color0": "#222433",
+        "color1": "#2D9FA6",
+        "color2": "#07B8BE",
+        "color3": "#0EBBC2",
+        "color4": "#26BEC4",
+        "color5": "#49BFC2",
+        "color6": "#C5AEAA",
+        "color7": "#cbe4e1",
+        "color8": "#8e9f9d",
+        "color9": "#2D9FA6",
+        "color10": "#07B8BE",
+        "color11": "#0EBBC2",
+        "color12": "#26BEC4",
+        "color13": "#49BFC2",
+        "color14": "#C5AEAA",
+        "color15": "#cbe4e1"
+    }
+}

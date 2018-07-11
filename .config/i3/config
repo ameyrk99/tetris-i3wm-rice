@@ -14,6 +14,7 @@ font xft:URWGothic-Book 11
 floating_modifier $mod
 
 bindsym $mod+Return exec termite
+bindsym Mod1+Return exec gnome-terminal
 
 # Window kill command
 bindsym $mod+Shift+q kill
@@ -136,12 +137,12 @@ bindsym $mod+Shift+8 move container to workspace $ws8; workspace $ws8
 #use xprop to get classes for the applications
 assign [class="Firefox|Opera"] $ws2
 assign [class="Nautilus"] $ws3
-assign [class="Code"] $ws4
+assign [class="Code|slack|Slack"] $ws4
 assign [class="vlc"] $ws5
 assign [class="Wps"] $ws6
 assign [class="Pinta|krita"] $ws7
 assign [class="Steam"] $ws8
-assign [class="Spotify"] $ws9
+assign [class="Spotify|spotify"] $ws9
 
 # Open specific applications in floating mode
 for_window [title="i3_help"] floating enable sticky enable border normal

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/run/media/mark/Windows/Users/ameyk/Pictures/walls/Downloads/space-1366x768-lava-live-wallpaper-live-photo-light-orange-12769.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0c0809",
+        "foreground": "#e0af7c",
+        "cursor": "#e0af7c"
+    },
+    "colors": {
+        "color0": "#0c0809",
+        "color1": "#542F4C",
+        "color2": "#8E310C",
+        "color3": "#A73409",
+        "color4": "#B04E0C",
+        "color5": "#A05C20",
+        "color6": "#D9690A",
+        "color7": "#e0af7c",
+        "color8": "#9c7a56",
+        "color9": "#542F4C",
+        "color10": "#8E310C",
+        "color11": "#A73409",
+        "color12": "#B04E0C",
+        "color13": "#A05C20",
+        "color14": "#D9690A",
+        "color15": "#e0af7c"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mark/MEGA/Walls/wall/mini/Minimalist-Wallpaper-Desktop-Backgrounds-10.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0d121a",
+        "foreground": "#99a9b9",
+        "cursor": "#99a9b9"
+    },
+    "colors": {
+        "color0": "#0d121a",
+        "color1": "#FCD701",
+        "color2": "#FDE305",
+        "color3": "#01519B",
+        "color4": "#236391",
+        "color5": "#0056A1",
+        "color6": "#0267B2",
+        "color7": "#99a9b9",
+        "color8": "#6b7681",
+        "color9": "#FCD701",
+        "color10": "#FDE305",
+        "color11": "#01519B",
+        "color12": "#236391",
+        "color13": "#0056A1",
+        "color14": "#0267B2",
+        "color15": "#99a9b9"
+    }
+}

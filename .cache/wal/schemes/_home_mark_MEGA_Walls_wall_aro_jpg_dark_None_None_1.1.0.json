@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mark/MEGA/Walls/wall/aro.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#080506",
+        "foreground": "#a7c5b1",
+        "cursor": "#a7c5b1"
+    },
+    "colors": {
+        "color0": "#080506",
+        "color1": "#48324B",
+        "color2": "#30504E",
+        "color3": "#2D6557",
+        "color4": "#506561",
+        "color5": "#388A6A",
+        "color6": "#518F70",
+        "color7": "#a7c5b1",
+        "color8": "#74897b",
+        "color9": "#48324B",
+        "color10": "#30504E",
+        "color11": "#2D6557",
+        "color12": "#506561",
+        "color13": "#388A6A",
+        "color14": "#518F70",
+        "color15": "#a7c5b1"
+    }
+}

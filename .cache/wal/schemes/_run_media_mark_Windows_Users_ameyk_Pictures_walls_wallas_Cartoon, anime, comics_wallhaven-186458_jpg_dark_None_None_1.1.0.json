@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/run/media/mark/Windows/Users/ameyk/Pictures/walls/wallas/Cartoon, anime, comics/wallhaven-186458.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#140f15",
+        "foreground": "#a9c5de",
+        "cursor": "#a9c5de"
+    },
+    "colors": {
+        "color0": "#140f15",
+        "color1": "#335A9B",
+        "color2": "#3A6BAC",
+        "color3": "#4973A9",
+        "color4": "#4776C5",
+        "color5": "#93778B",
+        "color6": "#5A8BB6",
+        "color7": "#a9c5de",
+        "color8": "#76899b",
+        "color9": "#335A9B",
+        "color10": "#3A6BAC",
+        "color11": "#4973A9",
+        "color12": "#4776C5",
+        "color13": "#93778B",
+        "color14": "#5A8BB6",
+        "color15": "#a9c5de"
+    }
+}

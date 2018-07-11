@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mark/Pictures/Wallpapers/OverWatch/tracer-wallpaper-wide.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#171515",
+        "foreground": "#c6c8c3",
+        "cursor": "#c6c8c3"
+    },
+    "colors": {
+        "color0": "#171515",
+        "color1": "#F8B84B",
+        "color2": "#D9A968",
+        "color3": "#4E6A9C",
+        "color4": "#907990",
+        "color5": "#708FA3",
+        "color6": "#59A8E3",
+        "color7": "#c6c8c3",
+        "color8": "#8a8c88",
+        "color9": "#F8B84B",
+        "color10": "#D9A968",
+        "color11": "#4E6A9C",
+        "color12": "#907990",
+        "color13": "#708FA3",
+        "color14": "#59A8E3",
+        "color15": "#c6c8c3"
+    }
+}

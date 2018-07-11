@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/run/media/mark/Windows/Users/ameyk/Pictures/walls/wallas/Cartoon, anime, comics/ANime/lhngQ0o.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0e3f69",
+        "foreground": "#bad3db",
+        "cursor": "#bad3db"
+    },
+    "colors": {
+        "color0": "#0e3f69",
+        "color1": "#2399C2",
+        "color2": "#27AACB",
+        "color3": "#4DB6D8",
+        "color4": "#61B8D9",
+        "color5": "#5CC5DE",
+        "color6": "#70CEE4",
+        "color7": "#bad3db",
+        "color8": "#829399",
+        "color9": "#2399C2",
+        "color10": "#27AACB",
+        "color11": "#4DB6D8",
+        "color12": "#61B8D9",
+        "color13": "#5CC5DE",
+        "color14": "#70CEE4",
+        "color15": "#bad3db"
+    }
+}

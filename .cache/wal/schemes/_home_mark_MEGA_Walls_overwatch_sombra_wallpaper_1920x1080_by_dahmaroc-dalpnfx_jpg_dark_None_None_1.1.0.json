@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mark/MEGA/Walls/overwatch_sombra_wallpaper_1920x1080_by_dahmaroc-dalpnfx.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#181112",
+        "foreground": "#a3b9c8",
+        "cursor": "#a3b9c8"
+    },
+    "colors": {
+        "color0": "#181112",
+        "color1": "#6A3064",
+        "color2": "#3C4759",
+        "color3": "#4F4D64",
+        "color4": "#8B336F",
+        "color5": "#3D6F9C",
+        "color6": "#52658F",
+        "color7": "#a3b9c8",
+        "color8": "#72818c",
+        "color9": "#6A3064",
+        "color10": "#3C4759",
+        "color11": "#4F4D64",
+        "color12": "#8B336F",
+        "color13": "#3D6F9C",
+        "color14": "#52658F",
+        "color15": "#a3b9c8"
+    }
+}

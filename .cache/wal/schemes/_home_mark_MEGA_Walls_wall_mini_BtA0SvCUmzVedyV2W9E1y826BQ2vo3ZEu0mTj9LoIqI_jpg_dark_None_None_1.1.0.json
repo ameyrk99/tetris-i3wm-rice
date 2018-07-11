@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mark/MEGA/Walls/wall/mini/BtA0SvCUmzVedyV2W9E1y826BQ2vo3ZEu0mTj9LoIqI.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#12456f",
+        "foreground": "#c1dae8",
+        "cursor": "#c1dae8"
+    },
+    "colors": {
+        "color0": "#12456f",
+        "color1": "#299DE3",
+        "color2": "#35A7E1",
+        "color3": "#50A0D0",
+        "color4": "#6FB0D6",
+        "color5": "#87BBD9",
+        "color6": "#97C6DE",
+        "color7": "#c1dae8",
+        "color8": "#8798a2",
+        "color9": "#299DE3",
+        "color10": "#35A7E1",
+        "color11": "#50A0D0",
+        "color12": "#6FB0D6",
+        "color13": "#87BBD9",
+        "color14": "#97C6DE",
+        "color15": "#c1dae8"
+    }
+}

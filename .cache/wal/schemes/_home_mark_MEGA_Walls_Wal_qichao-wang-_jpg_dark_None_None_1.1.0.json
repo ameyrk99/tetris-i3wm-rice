@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mark/MEGA/Walls/Wal/qichao-wang-.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0a0a0d",
+        "foreground": "#a6afd7",
+        "cursor": "#a6afd7"
+    },
+    "colors": {
+        "color0": "#0a0a0d",
+        "color1": "#3D4864",
+        "color2": "#5E5261",
+        "color3": "#485372",
+        "color4": "#95526E",
+        "color5": "#57688E",
+        "color6": "#5E6D97",
+        "color7": "#a6afd7",
+        "color8": "#747a96",
+        "color9": "#3D4864",
+        "color10": "#5E5261",
+        "color11": "#485372",
+        "color12": "#95526E",
+        "color13": "#57688E",
+        "color14": "#5E6D97",
+        "color15": "#a6afd7"
+    }
+}

@@ -45,18 +45,18 @@
     context = ctrl+shift+period
 
 [urgency_low]
-    background = "#8b4b49"
-    foreground = "#a7c6bb"
+    background = "#85c2e0"
+    foreground = "#85c2e0"
     timeout = 10
 
 [urgency_normal]
-    background = "#8b4b49"
-    foreground = "#a7c6bb"
+    background = "#85c2e0"
+    foreground = "#85c2e0"
     timeout = 13
 
 [urgency_critical]
-    background = "#8b4b49"
-    foreground = "#E0563A"
+    background = "#e5514d"
+    foreground = "#85c2e0"
     timeout = 15
 
 [irc]

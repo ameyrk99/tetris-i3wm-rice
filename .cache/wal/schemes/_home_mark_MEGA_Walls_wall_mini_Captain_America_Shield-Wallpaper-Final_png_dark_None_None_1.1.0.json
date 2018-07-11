@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mark/MEGA/Walls/wall/mini/Captain_America_Shield-Wallpaper-Final.png",
+    "alpha": "100",
+    "special": {
+        "background": "#3e1944",
+        "foreground": "#eebfbe",
+        "cursor": "#eebfbe"
+    },
+    "colors": {
+        "color0": "#3e1944",
+        "color1": "#EE706F",
+        "color2": "#1C2690",
+        "color3": "#2D3092",
+        "color4": "#463086",
+        "color5": "#6264AC",
+        "color6": "#DA7C84",
+        "color7": "#eebfbe",
+        "color8": "#a68585",
+        "color9": "#EE706F",
+        "color10": "#1C2690",
+        "color11": "#2D3092",
+        "color12": "#463086",
+        "color13": "#6264AC",
+        "color14": "#DA7C84",
+        "color15": "#eebfbe"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mark/MEGA/Walls/wall/colors.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0d0416",
+        "foreground": "#8baae3",
+        "cursor": "#8baae3"
+    },
+    "colors": {
+        "color0": "#0d0416",
+        "color1": "#B49010",
+        "color2": "#D5971B",
+        "color3": "#C5A158",
+        "color4": "#17249A",
+        "color5": "#5D1FA3",
+        "color6": "#2344B8",
+        "color7": "#8baae3",
+        "color8": "#61769e",
+        "color9": "#B49010",
+        "color10": "#D5971B",
+        "color11": "#C5A158",
+        "color12": "#17249A",
+        "color13": "#5D1FA3",
+        "color14": "#2344B8",
+        "color15": "#8baae3"
+    }
+}

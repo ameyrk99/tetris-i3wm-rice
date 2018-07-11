@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/run/media/mark/Windows/Users/ameyk/Pictures/walls/wallas/OverWatch/Mercy/overwatch_vector_wallpaper___mercy_by_choren64-daa3kvu.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#101213",
+        "foreground": "#f2efbe",
+        "cursor": "#f2efbe"
+    },
+    "colors": {
+        "color0": "#101213",
+        "color1": "#A59A64",
+        "color2": "#E5AA4F",
+        "color3": "#EFD16C",
+        "color4": "#F4E97F",
+        "color5": "#817C82",
+        "color6": "#C5ABA1",
+        "color7": "#f2efbe",
+        "color8": "#a9a785",
+        "color9": "#A59A64",
+        "color10": "#E5AA4F",
+        "color11": "#EFD16C",
+        "color12": "#F4E97F",
+        "color13": "#817C82",
+        "color14": "#C5ABA1",
+        "color15": "#f2efbe"
+    }
+}

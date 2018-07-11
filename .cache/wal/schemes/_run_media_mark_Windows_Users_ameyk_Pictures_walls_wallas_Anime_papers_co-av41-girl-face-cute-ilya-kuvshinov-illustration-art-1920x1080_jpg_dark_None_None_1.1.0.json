@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/run/media/mark/Windows/Users/ameyk/Pictures/walls/wallas/Anime/papers.co-av41-girl-face-cute-ilya-kuvshinov-illustration-art-1920x1080.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#211c20",
+        "foreground": "#e1c9ca",
+        "cursor": "#e1c9ca"
+    },
+    "colors": {
+        "color0": "#211c20",
+        "color1": "#C47270",
+        "color2": "#CE9A7A",
+        "color3": "#785C89",
+        "color4": "#AD7587",
+        "color5": "#D3968E",
+        "color6": "#CAABA0",
+        "color7": "#e1c9ca",
+        "color8": "#9d8c8d",
+        "color9": "#C47270",
+        "color10": "#CE9A7A",
+        "color11": "#785C89",
+        "color12": "#AD7587",
+        "color13": "#D3968E",
+        "color14": "#CAABA0",
+        "color15": "#e1c9ca"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mark/.i3/wal/wallhaven-30215.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#15101f",
+        "foreground": "#bdb0d0",
+        "cursor": "#bdb0d0"
+    },
+    "colors": {
+        "color0": "#15101f",
+        "color1": "#F59672",
+        "color2": "#564A8E",
+        "color3": "#554D95",
+        "color4": "#6D5490",
+        "color5": "#7264AD",
+        "color6": "#9D6A96",
+        "color7": "#bdb0d0",
+        "color8": "#847b91",
+        "color9": "#F59672",
+        "color10": "#564A8E",
+        "color11": "#554D95",
+        "color12": "#6D5490",
+        "color13": "#7264AD",
+        "color14": "#9D6A96",
+        "color15": "#bdb0d0"
+    }
+}

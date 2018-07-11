@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/run/media/mark/Windows/Users/ameyk/Pictures/walls/New/12095686.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0a090c",
+        "foreground": "#b7b6c3",
+        "cursor": "#b7b6c3"
+    },
+    "colors": {
+        "color0": "#0a090c",
+        "color1": "#5C565D",
+        "color2": "#93543B",
+        "color3": "#A16D54",
+        "color4": "#B8856C",
+        "color5": "#CC8F77",
+        "color6": "#6F6F8A",
+        "color7": "#b7b6c3",
+        "color8": "#807f88",
+        "color9": "#5C565D",
+        "color10": "#93543B",
+        "color11": "#A16D54",
+        "color12": "#B8856C",
+        "color13": "#CC8F77",
+        "color14": "#6F6F8A",
+        "color15": "#b7b6c3"
+    }
+}

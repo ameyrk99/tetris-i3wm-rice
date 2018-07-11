@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/run/media/mark/Windows/Users/ameyk/Pictures/walls/Darling in Franxx/896907.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#1f1923",
+        "foreground": "#d8d4dc",
+        "cursor": "#d8d4dc"
+    },
+    "colors": {
+        "color0": "#1f1923",
+        "color1": "#9E748E",
+        "color2": "#D17789",
+        "color3": "#9C8D83",
+        "color4": "#A797AA",
+        "color5": "#D9A0A7",
+        "color6": "#D7AAB4",
+        "color7": "#d8d4dc",
+        "color8": "#97949a",
+        "color9": "#9E748E",
+        "color10": "#D17789",
+        "color11": "#9C8D83",
+        "color12": "#A797AA",
+        "color13": "#D9A0A7",
+        "color14": "#D7AAB4",
+        "color15": "#d8d4dc"
+    }
+}

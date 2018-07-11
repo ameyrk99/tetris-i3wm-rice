@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mark/Music/backupi3/wal/tetris_edit.png",
+    "alpha": "100",
+    "special": {
+        "background": "#181921",
+        "foreground": "#85c2e0",
+        "cursor": "#85c2e0"
+    },
+    "colors": {
+        "color0": "#181921",
+        "color1": "#A2A83F",
+        "color2": "#DAE523",
+        "color3": "#E0ED21",
+        "color4": "#E4EC71",
+        "color5": "#29749C",
+        "color6": "#59F68D",
+        "color7": "#85c2e0",
+        "color8": "#5d879c",
+        "color9": "#A2A83F",
+        "color10": "#DAE523",
+        "color11": "#E0ED21",
+        "color12": "#E4EC71",
+        "color13": "#29749C",
+        "color14": "#59F68D",
+        "color15": "#85c2e0"
+    }
+}

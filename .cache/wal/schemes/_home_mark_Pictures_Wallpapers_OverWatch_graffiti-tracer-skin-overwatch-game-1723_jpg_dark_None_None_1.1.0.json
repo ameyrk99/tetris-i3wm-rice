@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mark/Pictures/Wallpapers/OverWatch/graffiti-tracer-skin-overwatch-game-1723.jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#050305",
+        "foreground": "#d3dadb",
+        "cursor": "#d3dadb"
+    },
+    "colors": {
+        "color0": "#050305",
+        "color1": "#316B8B",
+        "color2": "#56728E",
+        "color3": "#8B7989",
+        "color4": "#5A91A7",
+        "color5": "#61BAD6",
+        "color6": "#9F9AA3",
+        "color7": "#d3dadb",
+        "color8": "#939899",
+        "color9": "#316B8B",
+        "color10": "#56728E",
+        "color11": "#8B7989",
+        "color12": "#5A91A7",
+        "color13": "#61BAD6",
+        "color14": "#9F9AA3",
+        "color15": "#d3dadb"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/mark/Pictures/Wallpapers/mbuntu-3 (copy).jpg",
+    "alpha": "100",
+    "special": {
+        "background": "#0e1015",
+        "foreground": "#c4c0c2",
+        "cursor": "#c4c0c2"
+    },
+    "colors": {
+        "color0": "#0e1015",
+        "color1": "#B89379",
+        "color2": "#EAA473",
+        "color3": "#717688",
+        "color4": "#9F7695",
+        "color5": "#C37C8B",
+        "color6": "#7B849A",
+        "color7": "#c4c0c2",
+        "color8": "#898687",
+        "color9": "#B89379",
+        "color10": "#EAA473",
+        "color11": "#717688",
+        "color12": "#9F7695",
+        "color13": "#C37C8B",
+        "color14": "#7B849A",
+        "color15": "#c4c0c2"
+    }
+}

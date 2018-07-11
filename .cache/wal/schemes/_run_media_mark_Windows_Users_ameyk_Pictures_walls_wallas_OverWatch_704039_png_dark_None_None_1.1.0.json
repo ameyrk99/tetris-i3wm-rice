@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/run/media/mark/Windows/Users/ameyk/Pictures/walls/wallas/OverWatch/704039.png",
+    "alpha": "100",
+    "special": {
+        "background": "#051205",
+        "foreground": "#dfe5a8",
+        "cursor": "#dfe5a8"
+    },
+    "colors": {
+        "color0": "#051205",
+        "color1": "#728D23",
+        "color2": "#5C9564",
+        "color3": "#95A72D",
+        "color4": "#B6CB35",
+        "color5": "#9EAB56",
+        "color6": "#B5C956",
+        "color7": "#dfe5a8",
+        "color8": "#9ca075",
+        "color9": "#728D23",
+        "color10": "#5C9564",
+        "color11": "#95A72D",
+        "color12": "#B6CB35",
+        "color13": "#9EAB56",
+        "color14": "#B5C956",
+        "color15": "#dfe5a8"
+    }
+}

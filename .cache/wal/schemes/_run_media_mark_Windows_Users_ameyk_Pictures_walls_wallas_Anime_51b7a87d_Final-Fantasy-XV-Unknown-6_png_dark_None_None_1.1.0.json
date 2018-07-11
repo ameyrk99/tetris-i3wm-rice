@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/run/media/mark/Windows/Users/ameyk/Pictures/walls/wallas/Anime/51b7a87d_Final-Fantasy-XV-Unknown-6.png",
+    "alpha": "100",
+    "special": {
+        "background": "#0a0706",
+        "foreground": "#e1ccc4",
+        "cursor": "#e1ccc4"
+    },
+    "colors": {
+        "color0": "#0a0706",
+        "color1": "#895239",
+        "color2": "#946438",
+        "color3": "#A65449",
+        "color4": "#986550",
+        "color5": "#8D806D",
+        "color6": "#B98A75",
+        "color7": "#e1ccc4",
+        "color8": "#9d8e89",
+        "color9": "#895239",
+        "color10": "#946438",
+        "color11": "#A65449",
+        "color12": "#986550",
+        "color13": "#8D806D",
+        "color14": "#B98A75",
+        "color15": "#e1ccc4"
+    }
+}
