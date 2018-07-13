@@ -9,12 +9,11 @@ bindsym $mod+u border none
 bindsym $mod+y border pixel 1
 bindsym $mod+n border normal
 
-font xft:URWGothic-Book 11
+font xft:IBM 3270 12
 
 floating_modifier $mod
 
 bindsym $mod+Return exec termite
-bindsym Mod1+Return exec gnome-terminal
 
 # Window kill command
 bindsym $mod+Shift+q kill
@@ -64,18 +63,8 @@ bindsym $mod+Shift+space floating toggle
 # change focus between tiling / floating windows
 bindsym $mod+space focus mode_toggle
 
-# toggle sticky
-bindsym $mod+Shift+s sticky toggle
-
 # focus the parent container
 bindsym $mod+a focus parent
-
-# move the currently focused window to the scratchpad
-bindsym $mod+Shift+minus move scratchpad
-
-# Show the next scratchpad window or hide the focused scratchpad window.
-# If there are multiple scratchpad windows, this command cycles through them.
-bindsym $mod+minus scratchpad show
 
 # navigate workspaces next / previous
 bindsym $mod+Ctrl+Right workspace next
@@ -132,6 +121,7 @@ bindsym $mod+Shift+5 move container to workspace $ws5; workspace $ws5
 bindsym $mod+Shift+6 move container to workspace $ws6; workspace $ws6
 bindsym $mod+Shift+7 move container to workspace $ws7; workspace $ws7
 bindsym $mod+Shift+8 move container to workspace $ws8; workspace $ws8
+bindsym $mod+Shift+9 move container to workspace $ws9; workspace $ws9
 
 #settings for some applications
 #use xprop to get classes for the applications
@@ -215,21 +205,20 @@ exec --no-startup-id compton -f
 
 #startups
 exec_always --no-startup-id dunst
+exec_always --no-startup-id clipit
 exec_always --no-startup-id megasync
 exec_always --no-startup-id xfce4-power-manager
 exec_always --no-startup-id kdeconnect-indicator
 exec_always --no-startup-id pamac-tray-appindicator
+exec --no-startup-id nitrogen --restore; sleep 1; compton -f
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 & eval $(gnome-keyring-daemon -s --components=pkcs11,secrets,ssh,gpg) &
+#Enable mouse emulation on trackpad and disable touchscreen of laptop
+exec_always --no-startup-id xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Tapping Enabled" 1
+exec_always --no-startup-id xinput disable "ELAN0732:00 04F3:2537"
 
-# Autostart applications
-exec --no-startup-id nitrogen --restore; sleep 1; compton -b
-exec --no-startup-id nm-applet
-exec --no-startup-id xfce4-power-manager
-exec --no-startup-id pamac-tray
-exec --no-startup-id clipit
-exec_always --no-startup-id ff-theme-util
-exec_always --no-startup-id fix_xcursor
-exec_always --no-startup-id /$HOME/.config/polybar/i3wmthemer_bar_launch.sh
+
+# Polybar
+exec_always --no-startup-id /$HOME/.config/polybar/launch.sh
 
 #powermenu
 bindsym Control+Mod1+Delete exec $HOME/.i3/scripts/shutdown_menu
@@ -250,8 +239,8 @@ client.placeholder #e39866 #1e1e20 #e39866 #dc7f41 #dc7f41
 client.background #1e1e20
 
 # Gaps
-gaps inner 15
-gaps outer 5
+gaps inner 30
+gaps outer 10
 
 # Press $mod+Shift+g to enter the gap mode. Choose o or i for modifying outer/inner gaps. Press one of + / - (in-/decrement for current workspace) or 0 (remove gaps for current workspace). If you also press Shift with these keys, the change will be global for all workspaces.
 set $mode_gaps Gaps: (o) outer, (i) inner
