@@ -1,6 +1,6 @@
 set $mod Mod4
 
-new_window pixel 1
+new_window pixel 0
 new_float normal
 
 hide_edge_borders none
@@ -125,7 +125,7 @@ bindsym $mod+Shift+9 move container to workspace $ws9; workspace $ws9
 
 #settings for some applications
 #use xprop to get classes for the applications
-assign [class="Firefox|Opera"] $ws2
+assign [class="Firefox|Opera|chromium|Chromium"] $ws2
 assign [class="Nautilus"] $ws3
 assign [class="Code|slack|Slack"] $ws4
 assign [class="vlc"] $ws5
@@ -239,8 +239,9 @@ client.placeholder #e39866 #1e1e20 #e39866 #dc7f41 #dc7f41
 client.background #1e1e20
 
 # Gaps
-gaps inner 30
-gaps outer 10
+gaps inner 10
+gaps outer 2
+smart_gaps on
 
 # Press $mod+Shift+g to enter the gap mode. Choose o or i for modifying outer/inner gaps. Press one of + / - (in-/decrement for current workspace) or 0 (remove gaps for current workspace). If you also press Shift with these keys, the change will be global for all workspaces.
 set $mode_gaps Gaps: (o) outer, (i) inner
