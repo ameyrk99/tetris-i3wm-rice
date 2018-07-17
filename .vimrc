@@ -14,7 +14,6 @@ let mapleader=" "
 map <leader>s :source ~/.vimrc<CR>      
 nmap <leader>w :w!<cr>                  " Fast saving
 
-"execute pathogen#infect()
 filetype on
 " Enable syntax highlighting
 syntax enable 
