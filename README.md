@@ -16,7 +16,7 @@
 * [zsh](https://wiki.archlinux.org/index.php/zsh) and [oh-myzsh](http://ohmyz.sh)
 
 
-### Scsripts:
+### Scripts:
 * [Spotify](https://github.com/firatakandere/i3blocks-spotify) (not in screenshot)
 * [Weather](https://github.com/icemodding/i3/tree/master/scripts)
 * [Powermenu](https://github.com/vivien/i3blocks-contrib/tree/master/shutdown_menu)
