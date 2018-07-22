@@ -141,7 +141,7 @@ for_window [class="Nitrogen"] floating enable sticky enable border normal
 for_window [class="Pamac-manager"] floating enable
 for_window [class="Pavucontrol"] floating enable
 #float some windows by default
-for_window [class="termite"] floating enable, move position center resize set 800 500
+#for_window [class="Termite"] floating enable, move position center resize set 800 500
 #for_window [class="Nautilus"] floating enable
 for_window [class="SpeedCrunch"] floating enable, move position center resize set 400 450
 

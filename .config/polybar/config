@@ -38,6 +38,8 @@ font-2 = "Font Awesome 5 Brands:size=10;1"
 modules-left = i3
 modules-center = weather date
 modules-right = wlan bandwidth volume battery
+;modules-right = wlan volume battery
+
 
 ;tray-position = right
 ;tray-padding = 0
