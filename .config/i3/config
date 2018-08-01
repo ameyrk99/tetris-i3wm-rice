@@ -230,13 +230,13 @@ bindsym $mod+Shift+b exec firefox
 bindsym $mod+Print exec spectacle
 
 # Theme colors
-client.focused #e39866 #1e1e20 #e39866 #e39866 #e39866
-client.focused_inactive #e39866 #1e1e20 #e39866 #dc7f41 #dc7f41
-client.unfocused #e39866 #1e1e20 #e39866 #dc7f41 #dc7f41
-client.urgent #e39866 #1e1e20 #e39866 #dc7f41 #dc7f41
-client.placeholder #e39866 #1e1e20 #e39866 #dc7f41 #dc7f41
+client.focused #59f68d #0B0D09 #59f68d #59f68d #59f68d
+client.focused_inactive #59f68d #0B0D09 #59f68d #85c2e0 #85c2e0
+client.unfocused #59f68d #0B0D09 #59f68d #85c2e0 #85c2e0
+client.urgent #59f68d #0B0D09 #59f68d #85c2e0 #85c2e0
+client.placeholder #59f68d #0B0D09 #59f68d #85c2e0 #85c2e0
 
-client.background #1e1e20
+client.background #0B0D09
 
 # Gaps
 gaps inner 10
