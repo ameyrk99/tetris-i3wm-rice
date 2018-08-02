@@ -19,7 +19,7 @@ Note: I know this was supposed to be tetris one, but the setup just looks much b
 
 
 ### Scsripts:
-* [Spotify](https://github.com/firatakandere/i3blocks-spotify) (not in screenshot)
+* [Spotify](https://github.com/firatakandere/i3blocks-spotify) (for i3blocks)
 * [Weather](https://github.com/icemodding/i3/tree/master/scripts)
 * [Powermenu](https://github.com/vivien/i3blocks-contrib/tree/master/shutdown_menu)
 which uses rofi or zenity
