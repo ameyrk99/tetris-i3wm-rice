@@ -1,0 +1,63 @@
+! X colors.
+
+! special
+*.foreground:   #85c2e0
+*.background:   #0b0d09
+*.cursorColor:  #85c2e0
+
+! black
+*.color0:       #0b0d09
+*.color8:       #0b0d09
+
+! red
+*.color1:       #e5514d
+*.color9:       #e5514d
+
+! green
+*.color2:       #59f68d
+*.color10:      #59f68d
+
+! yellow
+*.color3:       #e4ec71
+*.color11:      #e4ec71
+
+! blue
+*.color4:       #57c7ff
+*.color12:      #57c7ff
+
+! magenta
+*.color5:       #ff6ac1
+*.color13:      #ff6ac1
+
+! cyan
+*.color6:       #9aedfe
+*.color14:      #9aedfe
+
+! white
+*.color7:       #f1f1f0
+*.color15:      #f1f1f0
+
+! Black color that will not be affected by bold highlighting.
+*.color66: #181921
+*color66:  #181921
+
+! Xclock colors.
+XClock*foreground: #85c2e0
+XClock*background: #0b0d09
+XClock*majorColor:  rgba:85/c2/e0/ff
+XClock*minorColor:  rgba:85/c2/e0/ff
+XClock*hourColor:   rgba:85/c2/e0/ff
+XClock*minuteColor: rgba:85/c2/e0/ff
+XClock*secondColor: rgba:85/c2/e0/ff
+
+! Set depth to make transparency work.
+URxvt*depth: 32
+
+URxvt.font: xft:IBM 3270:size=14
+URxvt.depth:                      32
+URxvt*scrollBar:                  false
+URxvt*mouseWheelScrollPage:       false
+URxvt*cursorBlink:                true
+URxvt*saveLines:                  5000
+URxvt*internalBorder: 5
+URxvt*geometry: 70x19

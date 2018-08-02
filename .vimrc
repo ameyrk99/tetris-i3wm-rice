@@ -1,13 +1,10 @@
 execute pathogen#infect()
 filetype plugin indent on
-" Sets how many lines of history VIM has to remember
 set history=500
 
-" Enable filetype plugins
 filetype plugin on
 filetype indent on
 
-" Set to auto read when a file is changed from the outside
 set autoread
 
 let mapleader=" "
@@ -15,22 +12,9 @@ map <leader>s :source ~/.vimrc<CR>
 nmap <leader>w :w!<cr>                  " Fast saving
 
 filetype on
-" Enable syntax highlighting
 syntax enable 
 
-" Enable 256 colors palette in Gnome Terminal
-if $COLORTERM == 'gnome-terminal'
-    set t_Co=256
-endif
-
-try
-    colorscheme tetris
-catch
-endtry
-
 set background=dark
-
-
 
 inoremap {<cr> {<cr>}<c-o><s-o>
 inoremap [<cr> [<cr>]<c-o><s-o>
@@ -42,7 +26,7 @@ nmap <silent> <A-Down> :wincmd j<CR>
 nmap <silent> <A-Left> :wincmd h<CR>
 nmap <silent> <A-Right> :wincmd l<CR>
 
-set colorcolumn=100
+"set colorcolumn=100
 
 set hidden
 set nowrap
@@ -58,7 +42,7 @@ set mat=2
 set number
 "set relativenumber
 set wildmenu
-set ruler
+"set ruler
 
 " For regular expressions turn magic on
 set magic
@@ -95,7 +79,7 @@ let g:lightline = {
       \ }
 
 " Format the status line
-"set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ \ Line:\ %l\ \ Column:\ %c
+" set statusline=\ %{HasPaste()}%F%m%r%h\ %w\ \ CWD:\ %r%{getcwd()}%h\ \ \ Line:\ %l\ \ Column:\ %c
 
 " Pressing ,ss will toggle and untoggle spell checking
 map <leader>ss :setlocal spell!<cr>

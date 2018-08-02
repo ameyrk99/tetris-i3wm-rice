@@ -7,11 +7,11 @@ font = IBM 3270 13.5
 foreground      = #85c2e0
 foreground_bold = #85c2e0
 cursor          = #85c2e0
-background      = rgba(24,25,33,0.945)
+background      = #0B0D09
 
 # black
-color0  = #181921
-color8  = #5d879c
+color0  = #0B0D09
+color8  = #0B0D09
 
 # red
 #color1  = #a2a83f
@@ -20,26 +20,26 @@ color1  = #e5514d
 color9  = #e5514d
 
 # green
-color2  = #dae523
-color10 = #dae523
+color2  = #59f68d
+color10 = #59f68d
 
 # yellow
-color3  = #e0ed21
-color11 = #e0ed21
+color3  = #e4ec71
+color11 = #e4ec71
 
 # blue
-color4  = #e4ec71
-color12 = #e4ec71
+color4  = #57C7FF
+color12 = #57C7FF
 
 # magenta
-color5  = #29749c
-color13 = #29749c
+color5  = #FF6AC1
+color13 = #FF6AC1
 
 # cyan
-color6  = #59f68d
-color14 = #59f68d
+color6  = #9AEDFE
+color14 = #9AEDFE
 
 # white
-color7  = #85c2e0
-color15 = #85c2e0
+color7  = #F1F1F0
+color15 = #F1F1F0
 

@@ -1,7 +1,7 @@
 set $mod Mod4
 
-new_window pixel 0
 new_float normal
+new_window pixel 0
 
 hide_edge_borders none
 
@@ -13,7 +13,7 @@ font xft:IBM 3270 12
 
 floating_modifier $mod
 
-bindsym $mod+Return exec termite
+bindsym $mod+Return exec urxvt
 
 # Window kill command
 bindsym $mod+Shift+q kill
@@ -159,6 +159,9 @@ bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcu
 
 exec --no-startup-id betterlockscreen -u ~/.i3/lock
 
+#execute locksreen
+bindsym $mod+Mod1+l exec betterlockscreen --lock
+
 # Set shut down, restart and locking features
 bindsym $mod+0 mode "$mode_system"
 set $mode_system (l)ock, (e)xit, switch_(u)ser, (s)uspend, (h)ibernate, (r)eboot, (Shift+s)hutdown
@@ -241,7 +244,7 @@ client.background #0B0D09
 # Gaps
 gaps inner 10
 gaps outer 2
-smart_gaps on
+#mart_gaps on
 
 # Press $mod+Shift+g to enter the gap mode. Choose o or i for modifying outer/inner gaps. Press one of + / - (in-/decrement for current workspace) or 0 (remove gaps for current workspace). If you also press Shift with these keys, the change will be global for all workspaces.
 set $mode_gaps Gaps: (o) outer, (i) inner

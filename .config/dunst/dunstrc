@@ -6,7 +6,7 @@
 
 [global]
     alignment = left
-    allow_markup = yes
+    markup = yes
     bounce_freq = 0
     browser = /usr/bin/opera -new-tab
     dmenu = /usr/bin/dmenu -p dunst:
@@ -45,18 +45,18 @@
     context = ctrl+shift+period
 
 [urgency_low]
-    background = "#181921"
-    foreground = "#85c2e0"
+    background = "#0B0D09"
+    foreground = "#59F68D"
     timeout = 10
 
 [urgency_normal]
-    background = "#181921"
-    foreground = "#85c2e0"
-    timeout = 13
+    background = "#0B0D09"
+    foreground = "#59F68D"
+   timeout = 13
 
 [urgency_critical]
-    background = "#e5514d"
-    foreground = "#181921"
+    background = "#0B0D09"
+    foreground = "#E5514D"
     timeout = 15
 
 [irc]

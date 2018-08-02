@@ -1,6 +1,6 @@
 [colors]
 foreground      = #85c2e0
-background      = #181921
+background      = #0B0D09
 red = #e5514d
 yellow  = #e4ec71
 green  = #59f68d
@@ -8,7 +8,7 @@ cyan  = #85c2e0
 
 [bar/bar]
 width = 100%
-height = 26
+height = 25
 radius = 0
 fixed-center = true
 
@@ -35,7 +35,7 @@ font-1 = "Font Awesome 5 Free:style=Solid:size=10;1"
 font-2 = "Font Awesome 5 Brands:size=10;1"
 
 
-modules-left = i3
+modules-left = i3 spotify
 modules-center = weather date
 modules-right = wlan bandwidth volume battery
 ;modules-right = wlan volume battery
@@ -52,30 +52,31 @@ type = internal/i3
 format = <label-state> <label-mode>
 index-sort = true
 wrapping-scroll = false
+;format-padding = 1
 
-label-mode-padding = 2
-label-mode-foreground = ${colors.cyan}
+label-mode-padding = 1
+label-mode-foreground = ${colors.green}
 ;label-mode-background = ${colors.background}
 
 label-focused = "%name%"
-label-focused-background = ${colors.cyan}
+label-focused-background = ${colors.green}
 label-focused-foreground = ${colors.background}
-label-focused-padding = 1.2
+label-focused-padding = 1
 
 label-unfocused = "%name%"
 label-unfocused-background = ${colors.background}
-label-unfocused-foreground = ${colors.cyan}
-label-unfocused-padding = 1.2
+label-unfocused-foreground = ${colors.green}
+label-unfocused-padding = 1
 
 label-visible-focused = "%name%"
 label-visible-background = ${colors.background}
-label-visible-foreground = ${colors.cyan}
-label-visible-padding = 1.2
+label-visible-foreground = ${colors.green}
+label-visible-padding = 1
 
 label-urgent-focused = "%name%"
 label-urgent-background = ${colors.red}
 label-urgent-foreground = ${colors.background}
-label-urgent-padding = 1.2
+label-urgent-padding = 1
 
 [module/wlan]
 type = custom/script
@@ -83,7 +84,7 @@ label= %output%
 exec=echo "$(iw dev wlp2s0 link | grep SSID | cut -d " " -f 2-)"
 ;format-background = ${colors.background}
 format-foreground = ${colors.red}
-interval=5
+interval=60
 format-padding = 0.7
 
 [module/bandwidth]
@@ -100,6 +101,7 @@ format-padding = 1
 type = custom/script
 label =  %output%
 exec=~/.i3/scripts/volume
+interval = 60
 format-padding = 1.5
 format-foreground = ${colors.red}
 
@@ -109,7 +111,7 @@ type=custom/script
 label=Nashik %output%
 exec= ~/.i3/scripts/weather.sh nashik
 interval=1800
-format-foreground = ${colors.green}
+format-foreground = ${colors.cyan}
 format-padding = 1
 
 [module/battery]
@@ -123,7 +125,7 @@ format-padding = 1
 
 [module/date]
 type = internal/date
-interval = 5
+interval = 10
 
 date =
 date-alt = " %Y-%m-%d"
@@ -137,6 +139,38 @@ format-padding = 1
 
 label = %date% %time%
 
+[module/spotify]
+;The module is meant for i3blocks, and it can play next song, pause, or play previous on i3blocks. Yet to change it to work
+;for polybar...If you do before I do, please do share (with me)
+type=custom/script
+label=  %output:0:30:...%
+exec=spotifycli --status
+interval=2
+;interval=20
+format-foreground = ${colors.green}
+format-padding = 1
+click-left = spotifycli --prev
+click-middle = spotifycli --playpause
+click-right = spotifycli --next
+
+[module/backlight]
+;Change internal to xbacklight if your device is supported by it...mine isn't
+;Check the polybar wiki for more info or info on xbacklight module
+type = internal/backlight
+label =  %percentage%%
+card = intel_backlight
+format =  <label> 
+format-padding = 0.5
+format-foreground = ${colors.red}
+interval = 60
+
+[module/xwindow]
+;Displays title of windows. Check the polybar wiki for more options for the module
+type = internal/xwindow
+label = %title:0:30:...%
+format-foreground = ${colors.yellow}
+format-padding = 1
+
 [module/powermenu]
 type = custom/menu
 
@@ -149,8 +183,8 @@ label-open = 
 ;label-open-foreground = #e39866
 label-close =  cancel
 ;label-close-foreground = #e39866
-label-separator = |
 ;label-separator-foreground = #e6a57a
+label-separator = |
 
 menu-0-0 = reboot
 menu-0-0-exec = menu-open-1
@@ -173,14 +207,6 @@ menu-3-0 = log off
 menu-3-0-exec = pkill -KILL -u $USER
 menu-3-1 = cancel
 menu-3-1-exec = menu-open-0
-
-[module/spotify]
-type = custom/script
-label =  %output%
-exec=python ~/.i3/scripts/spotify.py
-format-padding = 1.5
-format-foreground = ${colors.background}
-
 
 [settings]
 screenchange-reload = true
