@@ -140,8 +140,6 @@ format-padding = 1
 label = %date% %time%
 
 [module/spotify]
-;The module is meant for i3blocks, and it can play next song, pause, or play previous on i3blocks. Yet to change it to work
-;for polybar...If you do before I do, please do share (with me)
 type=custom/script
 label=  %output:0:30:...%
 exec=spotifycli --status
