@@ -26,4 +26,4 @@ replace the ys.zsh-theme with modified_ys.zsh-theme in ~/.oh-my-zsh/themes (or n
 ### Wallpapers
 ![tetris](wallpapers/tetris.png)
 
-![waves](wallpapers.waves.png)
+![waves](wallpapers/waves.png)
