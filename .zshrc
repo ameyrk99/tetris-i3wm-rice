@@ -92,6 +92,9 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias colorpanes="~/.i3/scripts/colorpanes.sh"
+alias cpolybar="vim ~/.config/polybar/config"
+alias ci3="vim ~/.config/i3/config"
 
 #source /usr/share/zsh-theme-powerlevel9k/powerlevel9k.zsh-theme
 VISUAL=vim; export VISUAL EDITOR=vim; export EDITOR

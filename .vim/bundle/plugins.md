@@ -1,7 +1,0 @@
-* [pathogen] (https://github.com/tpope/vim-pathogen)
-* [auto-pairs] (https://github.com/jiangmiao/auto-pairs)
-* [lightline] (https://github.com/itchyny/lightline.vim)
-* [nerdtree] (https://github.com/scrooloose/nerdtree)
-* [sparkup] (https://github.com/rstacruz/sparkup)
-* [supertab] (https://github.com/ervandew/supertab)
-* [syntastic] (https://github.com/vim-syntastic/syntastic)

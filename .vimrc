@@ -10,15 +10,12 @@ set autoread
 let mapleader=" "
 map <leader>s :source ~/.vimrc<CR>      
 nmap <leader>w :w!<cr>                  " Fast saving
+nmap <leader>g :Goyo<cr>                " Toggle goyo
 
 filetype on
 syntax enable 
 
 set background=dark
-
-inoremap {<cr> {<cr>}<c-o><s-o>
-inoremap [<cr> [<cr>]<c-o><s-o>
-inoremap (<cr> (<cr>]<c-o><s-o>
 
 "Navigation between window panes
 nmap <silent> <A-Up> :wincmd k<CR>
@@ -102,7 +99,7 @@ let g:stntastic_auto_loc_list=1
 let g:stntastic_check_on_open=1
 let g:stntastic_check_on_wq=1
 
-map <C-f> :NERDTreeToggle<CR>
+map <leader>f :NERDTreeToggle<CR>
 let NERDTreeMapActivateNode='<right>'
 let NERDTreeShowHidden=1
 nmap <leader>j :NERDTreeFind<CR>
