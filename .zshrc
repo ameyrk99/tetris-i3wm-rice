@@ -94,4 +94,4 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 #source /usr/share/zsh-theme-powerlevel9k/powerlevel9k.zsh-theme
- VISUAL=vim; export VISUAL EDITOR=vim; export EDITOR
+VISUAL=vim; export VISUAL EDITOR=vim; export EDITOR

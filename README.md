@@ -18,24 +18,14 @@ Note: I know this was supposed to be tetris one, but the setup just looks much b
 * [zsh](https://wiki.archlinux.org/index.php/zsh) and [oh-myzsh](http://ohmyz.sh)
 
 
-### Scsripts:
-* [Spotify](https://github.com/firatakandere/i3blocks-spotify) (for i3blocks)
+### Scripts:
+* [Spotify](https://github.com/firatakandere/i3blocks-spotify) (not in screenshot)
 * [Weather](https://github.com/icemodding/i3/tree/master/scripts)
 * [Powermenu](https://github.com/vivien/i3blocks-contrib/tree/master/shutdown_menu)
 which uses rofi or zenity
 * [Uptime](https://github.com/mohabaks/dotfiles/blob/master/config/polybar/.config/polybar/uptime) (not in screenshot)
 
-### Vim:
-* [pathogen] (https://github.com/tpope/vim-pathogen)
-* [auto-pairs] (https://github.com/jiangmiao/auto-pairs)
-* [lightline] (https://github.com/itchyny/lightline.vim)
-* [nerdtree] (https://github.com/scrooloose/nerdtree)
-* [sparkup] (https://github.com/rstacruz/sparkup)
-* [supertab] (https://github.com/ervandew/supertab)
-* [syntastic] (https://github.com/vim-syntastic/syntastic)
-
-
 ### Wallpapers
 ![tetris](wallpapers/tetris.png)
 
-![waves](wallpapers/waves.png)
+![waves](wallpapers.waves.png)

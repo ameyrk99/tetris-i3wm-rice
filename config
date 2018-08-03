@@ -296,3 +296,6 @@ bindsym XF86AudioMute exec amixer -q set Master mute
 bindsym XF86AudioPlay exec playerctl play-pause
 bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previous
+
+
+

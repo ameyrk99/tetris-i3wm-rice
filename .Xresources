@@ -61,3 +61,6 @@ URxvt*cursorBlink:                true
 URxvt*saveLines:                  5000
 URxvt*internalBorder: 5
 URxvt*geometry: 70x19
+URxvt.keysym.Shift-Control-V: perl:clipboard:paste
+URxvt.iso14755: False
+URxvt.perl-ext-common: default,clipboard
