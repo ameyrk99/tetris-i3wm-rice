@@ -1,6 +1,6 @@
 # Tetris Rice for i3wm-gaps
 
-Note: I know this was supposed to be tetris one, but the setup just looks much better with the other wallpaper with minor changes. Choose what you want of course.
+Note: I know this was supposed to be tetris one, but the setup just looks much better with the other wallpaper with minor changes. Choose what you want of course. So, for the tetris colors, use pywal
 
 ![Screenshot](screenshot.png)
 
