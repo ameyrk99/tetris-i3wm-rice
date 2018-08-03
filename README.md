@@ -28,4 +28,4 @@ which uses rofi or zenity
 ### Wallpapers
 ![tetris](wallpapers/tetris.png)
 
-![waves](wallpapers.waves.png)
+![waves](wallpapers/waves.png)
