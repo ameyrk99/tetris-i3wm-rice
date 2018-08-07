@@ -39,9 +39,6 @@
     font:            "IBM 3270 12";
 }
 
-configuration {
-}
-
 #window {
     anchor:     north;
     location:   north;
