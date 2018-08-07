@@ -15,6 +15,7 @@ floating_modifier $mod
 
 bindsym $mod+Return exec urxvt
 #bindsym Mod1+Return exec termite
+set $term --no-startup-id urxvt
 
 # Window kill command
 bindsym $mod+Shift+q kill
@@ -168,10 +169,10 @@ set $mode_system (l)ock, (e)xit, (s)uspend, (h)ibernate, (r)eboot, (Shift+s)hutd
 mode "$mode_system" {
     bindsym l exec --no-startup-id betterlockscreen --lock
     bindsym s exec --no-startup-id betterlockscreen --lock & systemctl suspend
-    bindsym e exec --no-startup-id i3exit logout, mode "default"
-    bindsym h exec --no-startup-id i3exit hibernate, mode "default"
-    bindsym r exec --no-startup-id i3exit reboot, mode "default"
-    bindsym Shift+s exec --no-startup-id i3exit shutdown, mode "default"
+    bindsym e exec --no-startup-id i3-msg exit
+    bindsym h exec --no-startup-id systemctl hibernate
+    bindsym r exec --no-startup-id systemctl reboot
+    bindsym Shift+s exec --no-startup-id systemctl poweroff
 
     # exit system mode: "Enter" or "Escape"
     bindsym Return mode "default"
@@ -203,7 +204,7 @@ mode "resize" {
 }
 
 #for smooth transitions
-exec --no-startup-id compton -f
+exec --no-startup-id compton -f --inactive-opacity 0.92 --active-opacity 0.965 --blur-background-fixed
 
 #startups
 exec_always --no-startup-id dunst
@@ -212,7 +213,7 @@ exec_always --no-startup-id megasync
 exec_always --no-startup-id xfce4-power-manager
 exec_always --no-startup-id kdeconnect-indicator
 exec_always --no-startup-id pamac-tray-appindicator
-exec --no-startup-id nitrogen --restore; sleep 1; compton -f
+exec --no-startup-id nitrogen --restore; sleep 1
 exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 & eval $(gnome-keyring-daemon -s --components=pkcs11,secrets,ssh,gpg) &
 #Enable mouse emulation on trackpad and disable touchscreen of laptop
 exec_always --no-startup-id xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Tapping Enabled" 1
@@ -227,6 +228,12 @@ bindsym $mod+Shift+f exec nautilus
 bindsym $mod+Shift+o exec opera
 bindsym $mod+Shift+b exec firefox
 bindsym $mod+Print exec spectacle
+bindsym $mod+Shift+w exec $term -e ranger
+bindsym $mod+Shift+y exec $term -e calcurse
+bindsym $mod+Shift+i exec $term -e htop
+
+bindsym $mod+Shift+Delete exec --no-startup-id ~/.i3/scripts/lmc truemute ; workspace 0; exec $term -e htop ; exec $term -e ranger .i3
+
 
 # Theme colors
 client.focused #59f68d #0B0D09 #59f68d #59f68d #59f68d

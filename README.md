@@ -15,6 +15,7 @@ Use polybar configs as you like
 * [Betterlockscreen](https://github.com/pavanjadhaw/betterlockscreen)
 * [compton](https://wiki.archlinux.org/index.php/Compton)
 * [polybar](https://github.com/jaagr/polybar)
+* [spotify-cli-linux](https://github.com/pwittchen/spotify-cli-linux) (for polybar)
 * [zsh](https://wiki.archlinux.org/index.php/zsh) and [oh-myzsh](http://ohmyz.sh)
 
 replace the ys.zsh-theme with modified_ys.zsh-theme in ~/.oh-my-zsh/themes (or not...not a major difference)
@@ -24,6 +25,6 @@ replace the ys.zsh-theme with modified_ys.zsh-theme in ~/.oh-my-zsh/themes (or n
 * [Uptime](https://github.com/mohabaks/dotfiles/blob/master/config/polybar/.config/polybar/uptime) (not in screenshot)
 
 ### Wallpapers
-![tetris](wallpapers/tetris.png)
-
 ![waves](wallpapers/waves.png)
+
+![tetris](wallpapers/tetris.png)

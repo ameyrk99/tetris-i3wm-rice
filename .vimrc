@@ -4,17 +4,15 @@ set history=500
 
 filetype plugin on
 filetype indent on
-
 set autoread
 
 let mapleader=" "
-map <leader>s :source ~/.vimrc<CR>      
 nmap <leader>w :w!<cr>                  " Fast saving
 nmap <leader>g :Goyo<cr>                " Toggle goyo
+nmap <leader>t :source ~/.vim/vimty.vim   "typewriter mode
 
 filetype on
 syntax enable 
-
 set background=dark
 
 "Navigation between window panes
@@ -24,6 +22,25 @@ nmap <silent> <A-Left> :wincmd h<CR>
 nmap <silent> <A-Right> :wincmd l<CR>
 
 "set colorcolumn=100
+
+"split
+set splitbelow
+set splitright
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
+" Folding
+set foldmethod=indent
+set foldlevel=99
+nnoremap <C-F> za
+let g:SimpylFold_docstring_preview=1
+
+" Flag unnecessary whitespace
+au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
+
+let python_highlight_all=1
 
 set hidden
 set nowrap
@@ -105,3 +122,12 @@ let NERDTreeShowHidden=1
 nmap <leader>j :NERDTreeFind<CR>
 "autocmd VimEnter * NERDTree
 "autocmd VimEnter * wincmd p
+
+
+set nocompatible
+
+augroup litecorrect 
+    autocmd!  
+    autocmd FileType markdown,mkd call litecorrect#init() 
+    autocmd FileType textile call litecorrect#init()
+augroup END

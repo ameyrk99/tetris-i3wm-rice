@@ -96,5 +96,9 @@ alias colorpanes="~/.i3/scripts/colorpanes.sh"
 alias cpolybar="vim ~/.config/polybar/config"
 alias ci3="vim ~/.config/i3/config"
 
+#Ignore the other two...
+alias fina="python ~/MEGA/Code/Python/finances/index.py"
+alias find="sc-im ~/MEGA/Code/Python/finances/fall18.csv"
+
 #source /usr/share/zsh-theme-powerlevel9k/powerlevel9k.zsh-theme
 VISUAL=vim; export VISUAL EDITOR=vim; export EDITOR
