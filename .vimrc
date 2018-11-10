@@ -2,18 +2,19 @@ execute pathogen#infect()
 filetype plugin indent on
 set history=500
 
+colorscheme slate
+
 filetype plugin on
 filetype indent on
 set autoread
 
 let mapleader=" "
-nmap <leader>w :w!<cr>                  " Fast saving
-nmap <leader>g :Goyo<cr>                " Toggle goyo
-nmap <leader>t :source ~/.vim/vimty.vim   "typewriter mode
+nmap <leader>w :w!<cr>                      " Fast saving
+nmap <leader>g :Goyo<cr>                    " Toggle goyo
+nmap <leader>t :source ~/.vim/vimty.vim     "typewriter mode
 
 filetype on
 syntax enable 
-set background=dark
 
 "Navigation between window panes
 nmap <silent> <A-Up> :wincmd k<CR>

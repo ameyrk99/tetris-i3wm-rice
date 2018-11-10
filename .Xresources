@@ -1,45 +1,25 @@
 ! X colors.
 
-! special
-*.foreground:   #85c2e0
-*.background:   #0b0d09
-*.cursorColor:  #85c2e0
-
-! black
-*.color0:       #0b0d09
-*.color8:       #0b0d09
-
-! red
-*.color1:       #e5514d
-*.color9:       #e5514d
-
-! green
-*.color2:       #59f68d
-*.color10:      #59f68d
-
-! yellow
-*.color3:       #e4ec71
-*.color11:      #e4ec71
-
-! blue
-*.color4:       #57c7ff
-*.color12:      #57c7ff
-
-! magenta
-*.color5:       #ff6ac1
-*.color13:      #ff6ac1
-
-! cyan
-*.color6:       #9aedfe
-*.color14:      #9aedfe
-
-! white
-*.color7:       #f1f1f0
-*.color15:      #f1f1f0
-
-! Black color that will not be affected by bold highlighting.
-*.color66: #181921
-*color66:  #181921
+*background:	#1E2541
+*foreground:	#EEFFFF
+*cursorColor:	#EEFFFF
+*color0:	#1E2541
+*color1:	#F0719B
+*color2:	#5AF7B0
+*color3:	#FFA56B
+*color4:	#57C7FF
+*color5:	#C792EA
+*color6:	#89DDFF
+*color7:	#EEFFFF
+*color8:	#354274
+*color9:	#F02E6E
+*color10:	#2CE592
+*color11:	#FF8537
+*color12:	#1DA0E2
+*color13:	#A742EA
+*color14:	#47BAE8
+*color15:	#DEE6E7
+*color16:	#2A335A
 
 ! Xclock colors.
 XClock*foreground: #85c2e0
