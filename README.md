@@ -17,6 +17,7 @@ Use polybar configs as you like
 * [polybar](https://github.com/jaagr/polybar)
 * [spotify-cli-linux](https://github.com/pwittchen/spotify-cli-linux) (for polybar)
 * [zsh](https://wiki.archlinux.org/index.php/zsh) and [oh-myzsh](http://ohmyz.sh)
+* [dunst](https://github.com/dunst-project/dunst)
 
 replace the ys.zsh-theme with modified_ys.zsh-theme in ~/.oh-my-zsh/themes (or not...not a major difference)
 
